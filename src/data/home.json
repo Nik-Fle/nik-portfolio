@@ -1,22 +1,22 @@
 {
-  "name": "John Doe",
+  "name": "Nikolas Fletton",
   "photoUrl": "favicon.svg",
-  "intro": "A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.",
+  "intro": "I am a graduate IT professional with a Bachelor of Information Technology from QUT. I have a strong customer-facing background combined with technical problem-solving skills developed through hospitality, field-based work and hands-on projects. Known for calmly supporting users, translating complicated technical concepts into plain language, and working independently in fast-paced and high-responsibility environments.",
   "introHtml": "A brief, compelling introduction about who you are and what you do. Mention your core <span class='text-white font-bold'>philosophy</span>, your passion for building digital products, and your drive for creating <span class='text-white font-bold'>efficient</span>, <span class='text-white font-bold'>high-impact</span> solutions.",
-  "webpageTitle": "John Doe",
-  "resumeUrl": "https://example-files.online-convert.com/document/pdf/example.pdf",
+  "webpageTitle": "Nik Fletton",
+  "resumeUrl": "/resume2026.pdf",
 
   "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
   "socials": [
     {
       "name": "GitHub",
-      "url": "https://github.com/[YOUR_USER_NAME]",
+      "url": "https://github.com/Nik-Fle",
       "icon": "mdi:github",
       "showInContact": true
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/[YOUR_USER_NAME]",
+      "url": "https://www.linkedin.com/in/nikolas-fletton-ba3130400/",
       "icon": "mdi:linkedin",
       "showInContact": true
     },
@@ -34,15 +34,15 @@
     },
     {
       "name": "Email",
-      "url": "mailto:your-mail@example.com",
+      "url": "mailto:nikfletton@gmail.com",
       "icon": "mdi:email",
       "showInContact": true
     },
     {
       "name": "Whatsapp",
-      "url": "https://wa.me/[YOUR_WHATSAPP_NUMBER]",
+      "url": "https://wa.me/[0434229421]",
       "icon": "mdi:whatsapp",
-      "showInContact": true
+      "showInContact": false
     },
     {
       "name": "Facebook",
@@ -54,7 +54,7 @@
       "name": "Messenger",
       "url": "#",
       "icon": "mdi:facebook-messenger",
-      "showInContact": true
+      "showInContact": false
     },
     {
       "name": "Instagram",

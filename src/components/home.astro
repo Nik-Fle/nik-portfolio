@@ -7,6 +7,7 @@ interface Social {
   name: string;
   url: string;
   icon: string;
+  showInContact: boolean;
 }
 
 interface ProfileData {
@@ -102,7 +103,7 @@ const { name, photoUrl, intro, introHtml, resumeUrl, socials } = data;
 </div>
 
   <div class="flex gap-6 mt-4 reveal-content" style="animation-delay: 500ms;">
-    {socials.filter((social) => social.url && social.url !== "#" && social.url !== "").map((social) => (
+    {socials.filter((social) => social.url && social.url !== "#" && social.url !== "" && social.showInContact !== false).map((social) => (
       <a 
         href={social.url} 
         target="_blank" 
