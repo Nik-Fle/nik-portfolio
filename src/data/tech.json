@@ -1,35 +1,42 @@
 {
   "categories": [
     {
-      "title": "Mobile Development",
-      "skills": [
-        { "name": "Flutter", "level": 3, "icon": "skill-icons:flutter-dark" },
-        { "name": "Dart", "level": 3, "icon": "skill-icons:dart-dark" },
-        { "name": "Kotlin", "level": 1, "icon": "skill-icons:kotlin-dark" }
-      ]
-    },
-    {
-      "title": "Frontend",
-      "skills": [
-        { "name": "Astro", "level": 2, "icon": "skill-icons:astro" },
-        { "name": "HTML", "level": 2, "icon": "skill-icons:html" },
-        { "name": "CSS", "level": 2, "icon": "skill-icons:css" },
-        { "name": "Tailwind CSS", "level": 1, "icon": "skill-icons:tailwindcss-dark" }
-      ]
-    },
-    {
       "title": "Backend",
       "skills": [
-        { "name": "FastAPI", "level": 2, "icon": "skill-icons:fastapi" },
-        { "name": "Python", "level": 2, "icon": "skill-icons:python-dark" },
-        { "name": "Firebase", "level": 3, "icon": "vscode-icons:file-type-firebase" }
+        { "name": "Node.js", "level": 2, "icon": "skill-icons:nodejs-dark" },
+        { "name": "Python", "level": 1, "icon": "skill-icons:python-dark" },
+        { "name": "Express", "level": 2, "icon": "skill-icons:expressjs-dark" },
+        { "name": "REST APIs", "level": 2, "icon": "mdi:api" }
       ]
     },
     {
       "title": "Database",
       "skills": [
-        { "name": "SQLite", "level": 3, "icon": "skill-icons:sqlite" },
+        { "name": "Supabase", "level": 2, "icon": "skill-icons:supabase-dark" },
         { "name": "PostgreSQL", "level": 2, "icon": "skill-icons:postgresql-dark" }
+      ]
+    },
+    {
+      "title": "Blockchain",
+      "skills": [
+        { "name": "Solidity", "level": 2, "icon": "skill-icons:solidity" },
+        { "name": "Ethereum", "level": 2, "icon": "skill-icons:html" }
+      ]
+    },
+    {
+      "title": "Frontend",
+      "skills": [
+        { "name": "React", "level": 2, "icon": "skill-icons:react-dark" },
+        { "name": "CSS", "level": 1, "icon": "skill-icons:css" },
+        { "name": "JavaScript", "level": 2, "icon": "skill-icons:javascript" }
+      ]
+    },
+    {
+      "title": "Tools & Cloud",
+      "skills": [
+        {"name": "Git", "level": 1, "icon": "skill-icons:git"},
+        {"name": "GitHub", "level": 1, "icon": "skill-icons:github-dark"},
+        {"name": "AWS", "level": 1, "icon": "skill-icons:aws-dark"}
       ]
     }
   ]

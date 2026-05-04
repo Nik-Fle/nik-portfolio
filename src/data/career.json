@@ -3,24 +3,24 @@
     "company": "ServiceStream",
     "role": "Gas Meter Reader",
     "period": "Aug 2023 - Present",
-    "type": "Full time job",
-    "description": "Leading cross-platform mobile development using Flutter and FastAPI. Focused on scalable system design and high-performance data processing.",
-    "skills": ["Leading", "Collaboration"]
+    "type": "Full Time Job",
+    "description": "Field-based meter reading role covering residential and commercial sites across Brisbane. Working independently in a fast-paced, high-accountability environment with consistent daily targets.",
+    "skills": ["Field Operations", "Time Management", "Independent Work"]
   },
   {
-    "company": "Bavaraian and Oasis Cruising",
-    "role": "Bar Tender",
+    "company": "Bavarian and Oasis Cruising",
+    "role": "Bartender",
     "period": "Sep 2021 - Apr 2023",
-    "type": "Full time job",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["React", "Node.js", "PostgreSQL", "Docker"]
+    "type": "Part-Time",
+    "description": "Delivered high-volume bar service in fast-paced hospitality venues. Developed strong customer-facing communication skills and the ability to perform calmly under pressure.",
+    "skills": ["Customer Service", "Communication", "Team Collaboration"]
   },
   {
     "company": "Queensland University of Technology",
-    "role": "BSc in Computer Science",
+    "role": "Bachelor in Computer Science",
     "period": "February 2022 - November 2025",
     "type": "Student",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["C++", "OOP", "Problem Solving"]
+    "description": "Completed a Bachelor of IT with a major in Computer Science and minors in Data and Cloud Computing. Built full-stack applications, explored blockchain technology, and completed a capstone project delivering a production-ready backend system.",
+    "skills": ["Node.js", "PostgreSQL", "Cloud Computing", "Blockchain Technology", "Python", "REST APIs"]
   }
 ]

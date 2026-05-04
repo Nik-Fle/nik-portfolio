@@ -1,12 +1,11 @@
 [
   {
-    "title": "Awesome Website",
-    "description": "A high-performance, SEO-optimized web application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-01.webp", "astro-02.jpeg"],
-    "tech": ["Astro", "Tailwind"],
+    "title": "QLD Ranger App Backend - Backend API for Ranger Communication",
+    "description": "A collaborative back end system for a communication and file-sharing platform for a Queensland Government initiative.",
+    "images": ["astro-01.webp", "astro-02.jpeg"], 
+    "tech": ["Supabase", "PostgreSQL", "Express.js", "Node.js", "Rest API"],
     "platforms": ["web"],
-    "link": "https://astro.build/themes/details/career-portfolio-data-driven-astro-ssg/",
-    "category": "Published Website"
+    "category": "University Capstone Project"
   },
   {
     "title": "Demo Mobile App",
