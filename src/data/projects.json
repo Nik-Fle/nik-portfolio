@@ -2,18 +2,9 @@
   {
     "title": "QLD Ranger App Backend - Backend API for Ranger Communication",
     "description": "A collaborative back end system for a communication and file-sharing platform for a Queensland Government initiative.",
-    "images": ["astro-01.webp", "astro-02.jpeg"], 
+    "images": [], 
     "tech": ["Supabase", "PostgreSQL", "Express.js", "Node.js", "Rest API"],
     "platforms": ["web"],
     "category": "University Capstone Project"
-  },
-  {
-    "title": "Demo Mobile App",
-    "description": "A high-performance mobile application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-02.jpeg", "#"],
-    "tech": ["Flutter", "Dart", "REST API"],
-    "platforms": ["apple-ios", "android"],
-    "link": "https://github.com/nbakh16/career-portfolio-template",
-    "category": "Hobby"
   }
 ]
