@@ -6,5 +6,36 @@
     "tech": ["Supabase", "PostgreSQL", "Express.js", "Node.js", "Rest API"],
     "platforms": ["web"],
     "category": "University Capstone Project"
+  },
+  {
+    "title": "Movie Ratings Search App (In Progress)",
+    "description": "A movie search and ratings-comparison app, built to practice front-end architecture and third-party API integration. Actively in development.",
+    "images": [],
+    "tech": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "DaisyUI",
+      "OMDB API"
+    ],
+    "link": "https://github.com/Nik-Fle/Movies-Intergalactic",
+    "platforms": [
+      "web"
+    ],
+    "category": "Personal Project"
+  },
+  {
+    "title": "CarID - Blockchain Vehicle Registry (In Progress)",
+    "description": "A smart-contract-based vehicle registration system on Ethereum, extending patterns from an earlier blockchain pet-registry project built during university coursework.",
+    "images": [],
+    "tech": [
+      "Solidity",
+      "Ethereum"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "category": "Personal Project"
   }
+
 ]

@@ -1,104 +1,72 @@
-# CareerPortfolio: Data-Driven Astro SSG
-Live Demo: [careerportofio.netlify.app](https://careerportofio.netlify.app)
+# 🎬 Movies Intergalactic
 
-[![Astro](https://img.shields.io/badge/Astro-FF5D01?logo=astro&logoColor=white)](https://astro.build/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Contributions Welcome](https://img.shields.io/badge/🤝_Contributions-Welcome-blue)](CONTRIBUTING.md)
+A movie search app that pulls live data from the OMDB API — search any title and get back its poster, plot, genre, cast, writer/director, runtime and release info, rendered as clean card-based UI.
 
-A high-performance, responsive portfolio built with **Astro**, **Tailwind CSS**, and **Native Browser Animations**. Designed to be 100% data-driven and easy to customize as a reusable template.
+**Status:** 🚧 In active development — built as a personal project to practice component architecture, state management, and third-party API integration. See the [Roadmap](#roadmap) below for what's planned next.
 
-## 🌟 Highlights
-- **Zero-JS by Default:** Leveraging Astro's islands architecture.
-- **JSON-First:** Update your information in `src/data/` without touching any code.
-- **Built-in Themes**: Switch between multiple professional color palettes and light/dark modes from a single config file.
-- **Fully Responsive:** Optimized for mobile, tablet, and desktop.
-- **Performance:** Optimized for perfect Lighthouse scores.
+## Features
 
-## 🛠️ Tech Stack
-- **Frontend:** [Astro](https://astro.build/) (Static Site Generation)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Icons:** [Iconify](https://iconify.design/) via `astro-icon`
-- **Deployment:** [Netlify](https://www.netlify.com)
-- **Backend:** [FastAPI](https://fastapi.tiangolo.com/) *(Works without backend — open source release coming soon)*
+- 🔍 Search for any movie by title
+- 🖼️ Displays poster, plot summary, and rating/runtime/release badges
+- 🎭 Genre, cast, writer, and director shown as tagged badges
+- ⚡ Built with React 19 + Vite for fast dev/build
 
-## 🚀 Getting Started
-Follow these instructions to get a local copy up and running.
+## Tech Stack
+
+- **React 19** — UI and component state
+- **Vite** — dev server and build tooling
+- **Tailwind CSS 4** + **DaisyUI** — styling and UI components
+- **OMDB API** — movie data source
+
+
+## Getting Started
 
 ### Prerequisites
-Make sure you have **Astro v6** and **Node.js** (v22.12.0 or higher) installed on your machine.
+
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- An OMDB API key — get a free one at [omdbapi.com/apikey.aspx](https://www.omdbapi.com/apikey.aspx)
 
 ### Installation
-1. Click **Use this template** on this repository.
-2. Choose **Create a new repository**.
-3. Clone your new repository: `git clone <your-repo-url>`
-4. Navigate to your repo: `cd <your-repo-name>`
-5. Install dependencies: `npm install`
-6. Start development server: `npm run dev`
-7. Update your content in `/src/data/`
-8. Build and deploy on your preferred platform
 
+```bash
+# Clone the repo
+git clone https://github.com/Nik-Fle/movies-intergalactic.git
+cd movies-intergalactic
 
-## 🛠️ How to Customize
-To make this portfolio yours, simply edit the JSON files in `src/data/`.
-
-### 🎨 Switching Themes
-This template comes with multiple built-in color palettes. To change the theme of your portfolio, open `src/config.ts` and update the `baseTheme` variable to one of the available options:
-
-```typescript
-export const SITE_CONFIG = {
-  // Options: 'default', 'strategic', 'innovator', 'executive'
-  baseTheme: 'default', 
-};
-```
-*(The template will automatically handle the dark/light mode toggles for whichever base theme you choose!)*
-
-### 📁 Directory Structure
-```
-├── public/              # Static assets (placeholder.jpg, favicon)
-├── src/
-│   ├── components/      # Reusable Astro components
-│   ├── data/            # JSON files for project data
-│   ├── layouts/         # Layout templates with Meta tags
-│   ├── pages/           # Site routes (index.astro)
-│   └── styles/          # global css styles
-│   └── config.ts        # Global site configuration
-├── astro.config.mjs     # Astro configuration
-└── tsconfig.json        # Typescript configuration
+# Install dependencies
+npm install
 ```
 
+### Environment Variables
 
+This app needs an OMDB API key to fetch movie data. Create a `.env` file in the project root:
 
+```
+VITE_OMDB_API_KEY=your_api_key_here
+```
 
-#### Useful commands and links for reference:
+> Vite only exposes env variables prefixed with `VITE_` to the front end, and reads them via `import.meta.env.VITE_OMDB_API_KEY`. Add `.env` to your `.gitignore` so your real key never gets committed.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Run locally
 
-Tailwind CSS: `npx astro add tailwind`
+```bash
+npm run dev
+```
 
-Inter font: `npm install @fontsource-variable/inter` 
+Then open the local URL Vite prints in your terminal (usually `http://localhost:5173`).
 
-Space Grotesk font: `npm install @fontsource-variable/space-grotesk`
+## Roadmap
 
-Astro-icon: `npx astro add astro-icon`
+Planned additions:
 
-Material Desing Icons: `npm install @iconify-json/mdi`
+- [ ] Languages and country metadata
+- [ ] Awards info
+- [ ] Side-by-side ratings comparison (IMDB, Rotten Tomatoes, Metacritic)
+- [ ] Personal Accounts 
+- [ ] To Watch List 
+- [ ] Media type filter (movie / series / episode)
+- [ ] Box office figures
 
-https://docs.astro.build/en/guides/styling/#add-tailwind-4
+## Acknowledgments
 
-https://www.astroicon.dev
-
-https://icon-sets.iconify.design/mdi/?category=Material
-
-## 🤝 Contributing
-Contributions are welcome!  
-Please read the [Contributing Guide](CONTRIBUTING.md) before opening a PR.
-
-## 📝 License
-This project is licensed under the [MIT License](LICENSE)
+Movie data provided by the [OMDB API](https://www.omdbapi.com/).
